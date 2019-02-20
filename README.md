@@ -10,4 +10,6 @@ Image Processing Order of Operations:
 Signal Processing Order of Operations (After Image Processing):
 1. Temporal Filtering
 2. Drift Removal
-3. Normalization
+3. Peak Detection (the peak detector is indifferent to Y-axis, but you may want max dF/dt in fluorescence/sec)
+4. Normalization
+5. Feature Extraction
